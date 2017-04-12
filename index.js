@@ -33,6 +33,7 @@ function printButton(val) {
 
 const parse = {};
 
+// Not sure why this is here excpet for continuity.
 parse.button = b => {
   buttonUpdate(b);
 };
@@ -42,5 +43,5 @@ parse.axis = a => {
   axisUpdate(a);
 };
 console.log(ansi.eraseScreen);
-joystick.on('button', parse.button);
+joystick.on('button', buttonUpdate);
 joystick.on('axis', parse.axis);
