@@ -14,7 +14,7 @@ function printBar(n) {
   let output = '[';
   let i = -width;
   for (; i < n; i++ ) output += '-';
-  output += '*';
+  output += '0';
   i++;
   for (; i <= width; i++) output += '-';
   output += ']';
