@@ -6,6 +6,7 @@ the joystick library reads directly from `/dev/input/js0` so it's doubtful it wo
 
 Plug in your USB joystick, run `npm i ; node index.js`, move the joystick around, and watch the cursors move.
 
+Screenshot:
 <pre>
 Axis 0: [-----------------------------------------0-------------------------------------------------------------------------------]
 Axis 1: [--------------------------0----------------------------------------------------------------------------------------------]
