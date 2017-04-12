@@ -4,7 +4,7 @@ This uses the [node-joystick](https://github.com/JayBeavers/node-joystick) libra
 
 the joystick library reads directly from `/dev/input/js0` so it's doubtful it works outside of Linux.  YMMV.  If you break it you get to keep both pieces.
 
-Plug in your USB joystick, run `node index.js`, move the joystick around, and watch the cursors move.
+Plug in your USB joystick, run `npm i ; node index.js`, move the joystick around, and watch the cursors move.
 
 <pre>
 Axis 0: [-----------------------------------------------------------------0-------------------------------------------------------]
